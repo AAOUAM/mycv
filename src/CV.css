@@ -1,6 +1,6 @@
 .box1 {
   width: 28%;
-  height: 780px;
+  height: 850px;
   border: 1px solid #ccc;
   border-radius: 7px / 7px;
   padding: 20px;
@@ -17,6 +17,7 @@ img{
   width: 150px;
   margin-left: 105px;
   margin-top: 10px;
+  flex: none;
 }
 p{
   margin-left: 20px;

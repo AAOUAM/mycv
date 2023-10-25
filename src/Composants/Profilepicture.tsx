@@ -1,6 +1,7 @@
+import image from './images/Mon photo.jpeg'
 
 export const Profilepicture=() =>{
     return(
-        <img src='images/Mon photo.jpeg' alt="Photo de profile"/>
+        <img src={image}  alt="Photo de profil"/>
     )
 }

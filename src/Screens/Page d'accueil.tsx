@@ -5,6 +5,8 @@ import { Tec } from "../Composants/Tec"
 import { Langue } from "../Composants/Langue"
 import { Loisir } from "../Composants/Loisir"
 import { Profilepicture } from "../Composants/Profilepicture"
+import { Titre } from "../Composants/Titrecv"
+import { Foot } from "../Composants/Piedsdepage"
 
 
 
@@ -13,6 +15,7 @@ export const Pageaccueil = () => {
         <div>
             <div className='box1'>
                     <Profilepicture/>
+                    <Titre/>
                     <Donneesperso/>
                     <Formation/>
             </div>
@@ -21,8 +24,9 @@ export const Pageaccueil = () => {
                     <Tec/>
                     <Langue/>
                     <Loisir/>
+                    
             </div>
-            <footer>©2023 AAOUAM Zakaria</footer>
+            <Foot/>
         </div>
     )
 }
